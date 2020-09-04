@@ -1,0 +1,2 @@
+include ':app', ':gradProject'
+rootProject.name='AspectIdeaOne'

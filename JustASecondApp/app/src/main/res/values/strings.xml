@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JustASecondApp</string>
+    <string name="textview">TextView</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_receiving">ReceivingActivity</string>
+    <string name="title_activity_receiving_image">ReceivingImageActivity</string>
+    <string name="title_activity_receiving_file">ReceivingFileActivity</string>
+    <string name="title_activity_receiving_parcelable">ReceivingParcelableActivity</string>
+</resources>

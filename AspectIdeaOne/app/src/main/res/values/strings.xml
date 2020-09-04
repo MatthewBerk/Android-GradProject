@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AspectIdeaOne</string>
+    <string name="textview">TextView</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_user_input">UserInputActivity</string>
+    <string name="title_activity_message">MessageActivity</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <TextView
+            android:text="@string/textview"
+            android:layout_width="match_parent"
+            android:layout_height="113dp" android:id="@+id/textView1"/>
+    <Button
+            android:text="Setup permissions."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/aButton"/>
+    <Button
+            android:text="Move to next activity on"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/aButton2"/>
+    <Button
+            android:text="Enter what you consider sensitive data!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/aButton3"/>
+    <Button
+            android:text="Setup Sensitive Data File"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/aButton4"/>
+
+</LinearLayout>

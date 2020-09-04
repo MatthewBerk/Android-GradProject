@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <Button
+            android:text="BindService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/aButton25"/>
+    <Button
+            android:text="Send message to service binded to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/aButton35"/>
+    <Button
+            android:text="Start the external service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/aButton45"/>
+
+</LinearLayout>

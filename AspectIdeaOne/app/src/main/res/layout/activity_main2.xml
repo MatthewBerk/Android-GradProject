@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <TextView
+            android:text="@string/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:id="@+id/listContacts"/>
+    <ScrollView
+            android:layout_width="360dp"
+            android:layout_height="592dp"
+            android:layout_marginLeft="10dp">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ParcelTest"
+                    android:id="@+id/doParcelTest"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PendingIntentTest1"
+                    android:id="@+id/doPendingIntentTest1"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PendingIntentTest2"
+                    android:id="@+id/doPendingIntentTest2"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="IntentSenderTest"
+                    android:id="@+id/doIntentSenderTest"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BroadcastReceiverTest1"
+                    android:id="@+id/doBroadcastReceiverTest1"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BroadcastReceiverTest2"
+                    android:id="@+id/doBroadcastReceiverTest2"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ContextTest1"
+                    android:id="@+id/doContextTest1"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ContextTest2"
+                    android:id="@+id/doContextTest2"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ContentResolverTest"
+                    android:id="@+id/doContentResolverTest"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="WriterTest1"
+                    android:id="@+id/doWriterTest1"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="WriterTest2"
+                    android:id="@+id/doWriterTest2"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="WriterTest3LocalServer"
+                    android:id="@+id/doWriterTest3LocalServer"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="OutputStreamTest1"
+                    android:id="@+id/doOutputStreamTest1"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="OutputStreamTest2LocalServer"
+                    android:id="@+id/doOutputStreamTest2LocalServer"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Image Uri share test"
+                    android:id="@+id/doImageUriShare"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Image share test1"
+                    android:id="@+id/doImageShare1"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Image share test2"
+                    android:id="@+id/doImageShare2"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Image share test3"
+                    android:id="@+id/doImageShare3"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Go to Service Test"
+                    android:id="@+id/doServiceTest"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

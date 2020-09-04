@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#00D11A1A">
+
+
+    <TextView
+            android:text="@string/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:id="@+id/listContacts"/>
+    <ScrollView
+            android:layout_width="360dp"
+            android:layout_height="592dp"
+            android:layout_marginLeft="10dp">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="bind service"
+                    android:id="@+id/startTest"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Send message"
+                    android:id="@+id/startTest2"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Start service"
+                    android:id="@+id/startTest3"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
